@@ -11,14 +11,14 @@ y = $('<div class = "comment"/>')//一条评论
 x = $('<div class = "commencton"/>')
 //用户头像
 z = $('<div class = "userPic"/>')
-pc = $('<a href = "#" target = "blank"/>');
+pc = $('<a href = "javascript:;" target = "blank"/>');
 $('<img src = "images/1.jpg"/>').appendTo(pc);
 pc.appendTo(z);
 
 z.appendTo(x);
 //用户名
 z2 = $('<div class = "bar"/>')
-bt = $('<a href = "#" target = "blank">');
+bt = $('<a href = "javascript:;" target = "blank">');
 bt[0].innerText = "MaggieTHU"
 bt.appendTo(z2);
 z2.appendTo(x);
@@ -36,7 +36,7 @@ t.appendTo(z3);
 pa = $('<div class = "panel"/>');
 h = $('<div class = "handle"/>');
 cr = $('<div class = "com_reply"/ style = "display:block">' );
-cra = $('<a href = "#"/>');
+cra = $('<a href = "javascript:;"/>');
 cra[0].innerText = "回复";
 cra.appendTo(cr);
 cr.appendTo(h);
