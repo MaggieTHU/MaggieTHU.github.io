@@ -1,0 +1,35 @@
+{
+    comment: [
+        {
+            "url":"http://maggiethu.github.io/hw4/user_Pic/u1.jpg",
+            "name":"大头",
+            "content":"抢沙发抢沙发！！"
+        
+        },
+        {
+            "url":"http://maggiethu.github.io/hw4/user_Pic/u2.jpg",
+            "name":"蓝帽子",
+            "content":"好美呀~~~"
+            
+        },
+        {
+            "url":"http://maggiethu.github.io/hw4/user_Pic/u3.jpg",
+            "name":"胖也是身材",
+            "content":"会不会有外星人呢？。。。"
+           
+        },
+        {
+            "url":"http://maggiethu.github.io/hw4/user_Pic/u4.jpg",
+            "name":"大眼妹子",
+            "content":"在哪里在哪里我也要看！！！求领走！！"
+            
+        },
+        {
+            "url":"http://maggiethu.github.io/hw4/user_Pic/u5.jpg",
+            "name":"包子",
+            "content":"最喜欢黄昏啦"
+            
+        }
+       
+    ]
+}

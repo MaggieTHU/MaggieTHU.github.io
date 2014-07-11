@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>JS图片轮播特效-左右切换</title>
+<link href="1.css" rel="stylesheet" type="text/css"/>
+<link href="2.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src = "http://maggiethu.github.io/hw4/jquery-1.11.1.min.js"></script>
+
+
+</head>
+<body>
+<div align="center"><img src="images/title.png" /></div>
+<div align="center" class = "div1"> 
+	
+	<div class="imageRotation" >	
+		<div class="imageBox" id = "imageBox">
+			<a id = "img1" target="_blank"><img src="" /></a>
+			<a id = "img2" target="_blank"><img src="" /></a>
+			<a id = "img3" target="_blank"><img src="" /></a>
+			<a id = "img4" target="_blank"><img src="" /></a>
+	        <a id = "img5" target="_blank"><img src="" /></a>
+		</div>
+	    <div class="titleBox">
+	    	<p class="now">第一张图片标题</p>
+	        <p class="now">第二张图片标题</p>
+	        <p class="now">第三张图片标题</p>
+	        <p class="now">第四张图片标题</p>
+	        <p class="now">第五张图片标题</p>
+	    </div>
+		<div class="icoBox">
+			<span rel="1">1</span>
+			<span rel="2">2</span>
+			<span rel="3">3</span>
+			<span rel="4">4</span>
+	        <span rel="5">5</span>
+		</div>
+		<div class="transBox_R"></div>
+		<div class="transBox_L"></div>
+	</div>
+</div>
+<div id = "insert" style="display: none"></div>
+<div id = "insert2" style="display: none"></div>
+<script type="text/javascript" src="1.js"></script>
+<script type = "text/javascript" src="2.js"></script>
+<script type = "text/javascript" src="2_load.js"></script>
+<script>
+$(document).ready(function(){
+    $("#insert").load("http://maggiethu.github.io/hw4/pic_Info.json",function(responseTxt,statusTxt,xhr){
+      if(statusTxt=="success")
+      	data = responseTxt;
+      	dataObj = eval("("+responseTxt+")");
+    	for(i = 0; i<5; i++)
+    	{
+    		x = $('.imageBox a img');//载入图片
+    		x[i].src = dataObj.images[i].url;
+    		z = $('.titleBox .now')//载入解说文字
+    		z[i].innerText =dataObj.images[i].title;
+    	}
+      if(statusTxt=="error")
+        alert("Error: "+xhr.status+": "+xhr.statusText);
+    });
+});
+</script>
+</body>
+</html>
