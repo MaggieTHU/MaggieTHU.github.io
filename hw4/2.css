@@ -3,8 +3,6 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 body{color:#555;}
 a{cursor:pointer;color:#06a7e1;text-decoration:none;}
 a:hover{color:#c31;text-decoration:none;}
-.commentArea .tab_outer .tabs{left:-9px;top:-46px;}
-.commentArea .tab_outer .num{margin-left:5px;font-style:normal;font-size:10px;color:#909090;}
 .commentArea .tab_inner{background:#f4f4f4;height:29px;border:none;border-top:3px solid #e5e5e5;position:relative;margin:0;margin-bottom:15px;}
 .commentArea .tab_inner .tabs{top:-3px;left:0;height:32px;}
 .commentArea .tab_inner .tabs li{height:32px;border:none;margin-left:0;border-right:2px solid #fff;}
@@ -36,11 +34,8 @@ a:hover{color:#c31;text-decoration:none;}
 .commentArea .videoComment .forbid{padding:50px 0 60px 0;text-align:center;}
 .commentArea .videoComment .nBox .head{height:20px;border:none;background:#f2f2f2;padding:2px 10px;margin-bottom:10px;}
 .commentArea .videoComment .nBox .body{padding:0;}
-.commentArea .digestcomments .more{text-align:center;font-family:simsun, '宋体';}
 .commentArea .comment{padding-bottom:10px;margin-bottom:12px;border-bottom:1px solid #e5e5e5;}
 .commentArea .commentcon{position:relative;_z-index:1;padding-bottom:2px;}
-.commentArea .digestcomments .re_comments{padding-top:12px;border-top:1px solid #e5e5e5;}
-.commentArea .digestcomments .commentcon{_zoom:1;}
 .commentArea .comments .commentcon{}
 .commentArea .comment .userPic{float:left;margin-right:10px;_margin-right:7px;width:50px;}
 .commentArea .comment .userPic img{width:50px;height:50px;}
@@ -48,7 +43,6 @@ a:hover{color:#c31;text-decoration:none;}
 .commentArea .comment .userPic .action span{color:#bbb;}
 .commentArea .comment .s_ico{margin:0 5px;}
 .commentArea .comment .bar{color:#909090;height:18px;position:relative;}
-.commentArea .comment .anchor{}
 .commentArea .comment .bar .comment_rating{text-align:center;color:#ffffff;font-weight:bold;line-height:14px;position:absolute;right:10px;top:2px;_top:3px;width:24px;height:14px;background:url(/v/img/ico__rating.png) no-repeat 0 0;}
 .commentArea .comment .con{padding-top:5px;overflow:hidden;zoom:1;}
 .commentArea .comment .con img{vertical-align:middle;}
@@ -66,34 +60,6 @@ a:hover{color:#c31;text-decoration:none;}
 .commentArea .comment .quote .text{display:inline;}
 .commentArea .comment .quote .text p{display:inline;}
 .commentArea .comment .quote .handle{display:inline;white-space:nowrap;}
-.commentArea .commentAction{position:relative;z-index:2;margin-bottom:20px;_zoom:1;}
-.commentArea .commentAction .userPic{float:left;width:50px;margin-right:10px;_margin-right:7px;}
-.commentArea .commentAction .userPic img{width:50px;height:50px;}
-.commentArea .commentAction .loginArea{margin-bottom:5px;overflow:hidden;zoom:1;}
-.commentArea .commentAction .wordlimit{position:absolute;top:0;right:0;color:#909090;z-index:2;}
-.commentArea .commentAction .wordlimit em{font-style:normal;color:#e07c7c;margin-right:5px;}
-.commentArea .commentAction .wordlimit .wordenter{font-family:Constantia,Georgia;font-size:18px;font-weight:normal;}
-.commentArea .commentAction .faces{position:relative;width:200px;height:58px;}
-.commentArea .commentAction .faces .ico__faces_act{width:165px;}
-.commentArea .commentTextArea{overflow:hidden;zoom:1;}
-.commentArea .commentAction textarea{display:block;clear:both;width:568px;height:69px;line-height:20px;padding:4px;font-size:12px;border:2px solid #d4d9dd;-webkit-box-shadow:inset 0 3px 3px #ebebeb;box-shadow:inset 0 3px 3px #ebebeb;outline:none;}
-.commentArea .commentAction textarea:focus{border-color:#3eabff;-webkit-box-shadow:inset 0 3px 3px #ebebeb;box-shadow:inset 0 3px 3px #ebebeb;}
-.commentArea .loginBefore textarea{width:628px;}
-.commentArea .loginAfter .toolbar{padding-left:60px;}
-.commentArea .commentAction .login{color:#014ccc;height:22px;margin-top:8px;}
-.commentArea .commentAction .login input{float:left;}
-.commentArea .commentAction input{margin-right:5px;vertical-align:middle;padding-left:2px;width:108px;}
-.commentArea .commentAction .validate{z-index:1;position:relative;float:left;margin-top:5px;}
-.commentArea .commentAction .validate span{color:#666;margin-right:5px;}
-.commentArea .commentAction .validate .com_overlay{width:150px;height:10px;left:280px;top:-50px;}
-.commentArea .commentAction .validate .com_overlay_con{width:150px;height:30px;padding:10px;overflow:hidden;}
-.commentArea .commentAction .validate .com_overlay_con .tips{line-height:30px;}
-.commentArea .commentAction .toolbar .com_overlay{width:150px;height:25px;left:auto;top:auto;bottom:50px;right:0px;}
-.commentArea .commentAction .toolbar .com_overlay_con{width:150px;height:35px;padding:15px 10px;overflow:hidden;left:-13px}
-.commentArea .commentAction .action{float:right;margin-top:6px;white-space:nowrap;_line-height:0;_font-size:0;}
-.commentArea .commentAction .action div{display:inline-block;*display:inline;*zoom:1;margin-left:5px;}
-.commentArea .commentAction .action .form_btnsub_m .form_btn_text{min-width:59px;}
-.commentArea .replyBox{padding:15px;background-color:#fafafa;}
 .commentArea .commentReply{position:relative;margin-bottom:0;}
 .commentArea .commentReply button,
 .commentArea .commentReply .btnNormal{white-space:nowrap;}
@@ -103,54 +69,7 @@ a:hover{color:#c31;text-decoration:none;}
 .commentArea .commentReply textarea:focus{border-color:#3eabff;}
 .commentArea .commentexpand{position:relative;z-index:3;}
 .commentArea .defaultext{color:#909090;}
-.commentArea .connect_loginpre{margin-top:5px;}
-.commentArea .connect_loginpre .label{float:left;margin-right:5px;}
-.commentArea .connect_loginpre ul{float:left;}
-.commentArea .connect_loginpre li{float:left;margin-right:5px;}
-.commentArea .connect_loginpre img{width:16px;height:16px;vertical-align:middle;}
-.commentArea .connect a,
-.commentArea .connect span{zoom:1;}
-.commentArea .connect{margin-top:10px;}
-.commentArea .connect .label{float:left;margin-right:5px;}
-.commentArea .connect ul{float:left;}
-.commentArea .connect li{float:left;margin-right:5px;}
-.commentArea .connect img{width:16px;height:16px;vertical-align:middle;}
-.commentArea .connect input{width:16px;margin-right:0;vertical-align:middle;}
-.commentArea .connect a,
-.commentArea .connect span{zoom:1;}
-.commentArea .returntop{background:#f0f0f0;height:28px;margin-top:15px;margin-bottom:15px;}
-.commentArea .returntop a{display:block;height:28px;line-height:28px;font-size:14px;text-align:center;overflow:hidden;}
-.commentArea .returntop a:hover{background:#e5e5e5;text-decoration:none;}
-.commentArea .com_del,
-.commentArea .com_share,
 .commentArea .com_reply{float:right;margin-left:15px;vertical-align:top;}
-.commentArea .com_del{position:relative;}
-.commentArea .com_overlay{background-color:#c3c3c3;z-index:5;position:absolute;top:20px;left:430px;width:150px;padding:20px 10px;height:35px;_height:38px;}
-.commentArea .com_overlay .com_overlay_con{background-color:#ffffff;border:2px solid #d6efff;z-index:5;position:absolute;top:-8px;left:-8px;padding:20px 10px;width:150px;height:35px;white-space:normal;}
-.commentArea .com_overlay .tips{margin-bottom:10px;}
-.commentArea .com_overlay .com_btns .form_btn{margin:0 5px;}
-.commentArea .com_overlay .com_btns .form_btn .form_btn_text{color:#333333;}
-.commentArea .com_overlay .com_btns .form_btnmaj_s .form_btn_text{color:#ffffff;}
-.commentArea .commentReply .com_overlay{left:auto;top:auto;right:-15px;bottom:45px;}
-.com_share span{display:inline-block;*display:inline;*zoom:1;}
-.com_share label{color:#3399E0!important;}
-.com_share .share_list{width:1px;overflow:hidden;vertical-align:middle;} 
-.com_share .share_list .share_list_inner{width:500px;} 
-.com_share .share_list a{margin-left:5px;*margin-left:3px;;width:16px;height:16px;display:inline-block;*display:inline;*zoom:1;overflow:hidden;background:url(/v/img/ico_apps.png) no-repeat 0 0;}
-.com_share .share_list em{display:none;}
-.com_share .share_list .youku{background-position:-96px 0;}
-.com_share .share_list .sina_weibo{background-position:0 -32px;}
-.com_share .share_list .tencent_weibo{background-position:-32px -32px;}
-.com_share .share_list .qzone{background-position:-64px -32px;}
-.com_share .share_list .renren{background-position:-96px -32px;}
-.com_share .share_list .msg{background-position:0 -64px;}
-.com_share .share_list .kaixin{background-position:-32px -64px;}
-.com_share .share_list .sina_weibo_dis{background-position:0 -192px;}
-.com_share .share_list .tencent_weibo_dis{background-position:-32px -192px;}
-.com_share .share_list .qzone_dis{background-position:-64px -192px;}
-.com_share .share_list .renren_dis{background-position:-96px -192px;}
-.com_share .share_list .msn_dis{background-position:0 -224px;}
-.com_share .share_list .kaixin_dis{background-position:-32px -222px;}
 /*-----innerCommentArea----*/
 .commentArea .innerCommentArea
 {
@@ -171,7 +90,7 @@ a:hover{color:#c31;text-decoration:none;}
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFFFFf;
+	background-color: #FFFFFF;
 
 }
 .tab_top
@@ -191,5 +110,5 @@ a:hover{color:#c31;text-decoration:none;}
 }
 .commentAreaBox
 {
-	background-color: #FFFF66;
+	background-color: #FFED99;
 }
