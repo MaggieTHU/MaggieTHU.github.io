@@ -1,7 +1,7 @@
 j = 1;
 /*----初始化第1页---*/
 $(document).ready(function(){
-    $("#insert2").load("http://127.0.0.1/comment1.json",function(responseTxt,statusTxt,xhr){
+    $("#insert2").load("http://maggiethu.github.io/hw4/comment1.json",function(responseTxt,statusTxt,xhr){
       if(statusTxt=="success")
       	data = responseTxt;
       	dataObj = eval("("+responseTxt+")");
@@ -22,7 +22,7 @@ $(document).ready(function(){
 /*----图标第1页---*/
 $(document).ready(function(){
   $("#pages1").click(function(){
-    $("#insert2").load("http://127.0.0.1/comment1.json",function(responseTxt,statusTxt,xhr){
+    $("#insert2").load("http://maggiethu.github.io/hw4/comment1.json",function(responseTxt,statusTxt,xhr){
       if(statusTxt=="success")
         data = responseTxt;
         dataObj = eval("("+responseTxt+")");
@@ -45,7 +45,7 @@ $(document).ready(function(){
 /*----图标第2页---*/
 $(document).ready(function(){
 	$("#pages2").click(function(){
-    $("#insert2").load("http://127.0.0.1/comment2.json",function(responseTxt,statusTxt,xhr){
+    $("#insert2").load("http://maggiethu.github.io/hw4/comment2.json",function(responseTxt,statusTxt,xhr){
       if(statusTxt=="success")
       	data = responseTxt;
       	dataObj = eval("("+responseTxt+")");
@@ -68,7 +68,7 @@ $(document).ready(function(){
 /*----图标第3页---*/
 $(document).ready(function(){
   $("#pages3").click(function(){
-    $("#insert2").load("http://127.0.0.1/comment3.json",function(responseTxt,statusTxt,xhr){
+    $("#insert2").load("http://maggiethu.github.io/hw4/comment3.json",function(responseTxt,statusTxt,xhr){
       if(statusTxt=="success")
         data = responseTxt;
         dataObj = eval("("+responseTxt+")");
@@ -95,7 +95,7 @@ $(document).ready(function(){
     if(j<3)
        j++;
     $('#pageNumber p')[0].innerText = "第"+j.toString()+"页/共3页";
-    $("#insert2").load("http://127.0.0.1/comment"+j.toString()+".json",function(responseTxt,statusTxt,xhr){
+    $("#insert2").load("http://maggiethu.github.io/hw4/comment"+j.toString()+".json",function(responseTxt,statusTxt,xhr){
       if(statusTxt=="success")
         data = responseTxt;
         dataObj = eval("("+responseTxt+")");
@@ -121,7 +121,7 @@ $(document).ready(function(){
      if(j>1)
         j--;
       $('#pageNumber p')[0].innerText = "第"+j.toString()+"页/共3页";
-    $("#insert2").load("http://127.0.0.1/comment"+j.toString()+".json",function(responseTxt,statusTxt,xhr){
+    $("#insert2").load("http://maggiethu.github.io/hw4/comment"+j.toString()+".json",function(responseTxt,statusTxt,xhr){
       if(statusTxt=="success")
         data = responseTxt;
         dataObj = eval("("+responseTxt+")");
