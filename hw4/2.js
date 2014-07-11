@@ -63,10 +63,10 @@ pageNumber_p.appendTo(pageNumber);
 //翻上下页
 tur  = $('<ul class = "turn"/>');
 lastp = $('<li title = "上一页" class = "pre"/>');
-lastp_span = $('<a onclick ="" href = "#" id = "lastPage"/>');
+lastp_span = $('<a onclick ="" href = "javascript:;" id = "lastPage"/>');
 lastp_span[0].innerText = "上一页";
 nextp = $('<li title = "下一页" class = "next"/>');
-nextp_a = $('<a onclick ="" href = "#" id = "nextPage"/>  ');
+nextp_a = $('<a onclick ="" href = "javascript:;" id = "nextPage"/>  ');
 nextp_a[0].innerText = "下一页";
 lastp_span.appendTo(lastp);
 nextp_a.appendTo(nextp);
@@ -76,15 +76,15 @@ nextp.appendTo(tur);
 //评论页数索引
 pages = $('<ul class = "pages"/>');
 pa_current = $('<li  class = "current"/>');//第一页 
-pa_current_span = $('<a onclick ="" href = "#" id = "pages1"/>');
+pa_current_span = $('<a onclick ="" href = "javascript:;" id = "pages1"/>');
 pa_current_span[0].innerText = "1";
 pa_current_span.appendTo(pa_current);
 pa_2= $('<li/>');//第2页
-pa_2_a = $('<a onclick ="" href = "#" id = "pages2"/> ');
+pa_2_a = $('<a onclick ="" href = "javascript:;" id = "pages2"/> ');
 pa_2_a[0].innerText = "2";
 pa_2_a.appendTo(pa_2);
 pa_3= $('<li/>');//第3页
-pa_3_a = $('<a onclick ="" href = "#" id = "pages3"/> ');
+pa_3_a = $('<a onclick ="" href = "javascript:;" id = "pages3"/> ');
 pa_3_a[0].innerText = "3";
 pa_3_a.appendTo(pa_3);
 //插入
